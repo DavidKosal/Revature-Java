@@ -1,7 +1,9 @@
 package game;
 
+import Fixture.Item;
 import Fixture.Room;
 
 public class Player {
-	Room currentRoom;
+	public Room currentRoom;
+	public Item item;
 }
